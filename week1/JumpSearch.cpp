@@ -1,3 +1,17 @@
+/*
+NAME - KRISHANU RAI
+SECTION - SE
+ITERATIVE BINARY SEARCH
+******************************************
+INPUT 
+5
+2 3 4 10 40
+10
+******************************************
+OUTPUT
+Found at position 3
+******************************************
+*/
 #include <bits/stdc++.h>
 using namespace std;
 
