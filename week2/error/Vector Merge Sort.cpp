@@ -68,3 +68,27 @@ int main(){
 
 	return 0;
 }
+
+/*
+C:\Users\dankr\Desktop\sublime\file.cpp:27:15: error: cannot convert 'std::vector<int>' to '__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type' {aka 'int'} in assignment
+   27 |    a[k] = la[i];
+      |           ~~~~^
+      |               |
+      |               std::vector<int>
+C:\Users\dankr\Desktop\sublime\file.cpp:30:15: error: cannot convert 'std::vector<int>' to '__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type' {aka 'int'} in assignment
+   30 |    a[k] = ra[j];
+      |           ~~~~^
+      |               |
+      |               std::vector<int>
+C:\Users\dankr\Desktop\sublime\file.cpp:36:14: error: cannot convert 'std::vector<int>' to '__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type' {aka 'int'} in assignment
+   36 |   a[k] = la[i];
+      |          ~~~~^
+      |              |
+      |              std::vector<int>
+C:\Users\dankr\Desktop\sublime\file.cpp:40:14: error: cannot convert 'std::vector<int>' to '__gnu_cxx::__alloc_traits<std::allocator<int>, int>::value_type' {aka 'int'} in assignment
+   40 |   a[k] = ra[j];
+      |          ~~~~^
+      |              |
+      |              std::vector<int>
+[Finished in 1.2s]
+*/
